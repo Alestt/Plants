@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
 </head>
+
 <body>
 
     <!-- Начало: Данный блок удалять нельзя -->
@@ -15,18 +19,307 @@
         </a>
         <div>
             <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                    href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
             </p>
             <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+                пользователь получил оплату за верстку этого макета.
             </p>
         </div>
     </div>
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <header class="main__header header">
+            <div class="container container--header">
+                <nav class="header__nav">
+                    <a class="header__logo">
+                        <svg class="header__logo-img" fill="none" width="34" height="32" viewBox="0 0 34 32"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="header__logo-img"
+                                d="M0.823602 26.7153C1.39853 27.4804 2.25331 28.1199 3.29707 28.566C4.34083 29.0121 5.53454 29.2481 6.75126 29.2488H13.8055V29.9055C13.8055 30.4279 14.0965 30.929 14.6143 31.2985C15.1322 31.6679 15.8345 31.8755 16.5669 31.8755C17.2992 31.8755 18.0016 31.6679 18.5194 31.2985C19.0373 30.929 19.3282 30.4279 19.3282 29.9055V29.2488H26.3825C27.5994 29.2479 28.7932 29.0118 29.837 28.5655C30.8808 28.1191 31.7355 27.4793 32.3102 26.714C32.8951 25.9399 33.1755 25.0672 33.1217 24.1886C33.0679 23.31 32.6819 22.4581 32.0046 21.7233L29.9336 19.4775C30.2505 19.246 30.5201 18.9838 30.7344 18.6987C31.155 18.1434 31.357 17.5171 31.3187 16.8865C31.2805 16.2559 31.0035 15.6445 30.5171 15.1172L27.3306 11.6578C27.4754 11.5225 27.6053 11.3794 27.719 11.2297C28.1417 10.6806 28.3498 10.0606 28.3217 9.43444C28.2935 8.80832 28.03 8.1991 27.5588 7.67049C27.4906 7.59639 27.4168 7.52492 27.3379 7.45642L20.3444 1.55686C20.3002 1.5214 20.2487 1.48594 20.21 1.45311C19.2374 0.772426 17.9293 0.391113 16.5669 0.391113C15.2044 0.391113 13.8964 0.772426 12.9238 1.45311C12.8796 1.48463 12.8354 1.51878 12.7949 1.55292L5.77007 7.44722C5.69161 7.51475 5.61847 7.58534 5.551 7.65867C5.07592 8.18661 4.80896 8.79611 4.77819 9.42311C4.74742 10.0501 4.95396 10.6714 5.37612 11.2218C5.49647 11.38 5.63437 11.5311 5.78848 11.6736L2.61663 15.1132C2.12913 15.64 1.85082 16.2512 1.81128 16.8819C1.77173 17.5125 1.97243 18.139 2.39204 18.6947C2.60634 18.9799 2.87592 19.2421 3.19283 19.4735L1.12183 21.7194C0.44423 22.4552 0.0586972 23.3083 0.00618774 24.188C-0.0463217 25.0676 0.236153 25.941 0.823602 26.7153ZM5.74246 23.8838L9.66539 19.6285C9.9161 19.3564 10.0683 19.0441 10.1085 18.7197C10.1486 18.3953 10.0754 18.0689 9.8954 17.7696C9.71538 17.4703 9.43419 17.2076 9.07697 17.0048C8.71975 16.8021 8.29764 16.6657 7.84843 16.6078L11.9647 12.1411C12.1778 11.9052 12.3181 11.6396 12.3763 11.3621C12.4345 11.0845 12.4092 10.8012 12.3021 10.5312C12.195 10.2611 12.0086 10.0104 11.7552 9.79568C11.5018 9.58098 11.1873 9.4072 10.8325 9.28591L16.5669 4.47249L22.2736 9.28591C21.9196 9.40804 21.6063 9.58271 21.3545 9.79822C21.1027 10.0137 20.9184 10.2651 20.8138 10.5356C20.7093 10.806 20.6869 11.0893 20.7481 11.3664C20.8094 11.6435 20.9529 11.9081 21.1691 12.1424L25.2872 16.6078C24.838 16.6657 24.4159 16.8021 24.0586 17.0048C23.7014 17.2076 23.4202 17.4703 23.2402 17.7696C23.0602 18.0689 22.987 18.3953 23.0271 18.7197C23.0673 19.0441 23.2195 19.3564 23.4702 19.6285L27.395 23.8838C27.528 24.0246 27.6038 24.189 27.6139 24.3587C27.624 24.5284 27.5679 24.6968 27.4521 24.8451C27.3532 24.986 27.2009 25.1043 27.0124 25.1865C26.824 25.2687 26.607 25.3115 26.3862 25.3101H6.75126C6.53042 25.3115 6.31344 25.2687 6.12501 25.1865C5.93658 25.1043 5.78427 24.986 5.68539 24.8451C5.56949 24.6968 5.51347 24.5284 5.52355 24.3587C5.53362 24.189 5.60939 24.0246 5.74246 23.8838Z"
+                                fill="#54C352" />
+                            <path class="header__logo-img"
+                                d="M15.6464 22.682C17.1715 22.682 18.4078 21.8 18.4078 20.712C18.4078 19.624 17.1715 18.7419 15.6464 18.7419C14.1214 18.7419 12.8851 19.624 12.8851 20.712C12.8851 21.8 14.1214 22.682 15.6464 22.682Z"
+                                fill="#54C352" />
+                            <path class="header__logo-img"
+                                d="M17.4873 16.1153C19.0124 16.1153 20.2487 15.2333 20.2487 14.1453C20.2487 13.0573 19.0124 12.1753 17.4873 12.1753C15.9623 12.1753 14.726 13.0573 14.726 14.1453C14.726 15.2333 15.9623 16.1153 17.4873 16.1153Z"
+                                fill="#54C352" />
+                        </svg>
+                        <svg class="header__logo-text" fill="white" width="90" height="24" viewBox="0 0 90 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.9583 8.36C14.9583 9.42 14.7083 10.42 14.2083 11.36C13.7083 12.3 12.9083 13.07 11.8083 13.67C10.7083 14.25 9.29825 14.54 7.57825 14.54H3.79825V23H0.37825V2.15H7.57825C9.17825 2.15 10.5283 2.43 11.6283 2.99C12.7483 3.53 13.5783 4.27 14.1183 5.21C14.6783 6.15 14.9583 7.2 14.9583 8.36ZM7.57825 11.75C8.87825 11.75 9.84825 11.46 10.4883 10.88C11.1283 10.28 11.4483 9.44 11.4483 8.36C11.4483 6.08 10.1583 4.94 7.57825 4.94H3.79825V11.75H7.57825ZM21.64 0.8V23H18.22V0.8H21.64ZM24.9902 14.66C24.9902 13 25.3302 11.53 26.0102 10.25C26.7102 8.97 27.6502 7.98 28.8302 7.28C30.0302 6.56 31.3502 6.2 32.7902 6.2C34.0902 6.2 35.2202 6.46 36.1802 6.98C37.1602 7.48 37.9402 8.11 38.5202 8.87V6.47H41.9702V23H38.5202V20.54C37.9402 21.32 37.1502 21.97 36.1502 22.49C35.1502 23.01 34.0102 23.27 32.7302 23.27C31.3102 23.27 30.0102 22.91 28.8302 22.19C27.6502 21.45 26.7102 20.43 26.0102 19.13C25.3302 17.81 24.9902 16.32 24.9902 14.66ZM38.5202 14.72C38.5202 13.58 38.2802 12.59 37.8002 11.75C37.3402 10.91 36.7302 10.27 35.9702 9.83C35.2102 9.39 34.3902 9.17 33.5102 9.17C32.6302 9.17 31.8102 9.39 31.0502 9.83C30.2902 10.25 29.6702 10.88 29.1902 11.72C28.7302 12.54 28.5002 13.52 28.5002 14.66C28.5002 15.8 28.7302 16.8 29.1902 17.66C29.6702 18.52 30.2902 19.18 31.0502 19.64C31.8302 20.08 32.6502 20.3 33.5102 20.3C34.3902 20.3 35.2102 20.08 35.9702 19.64C36.7302 19.2 37.3402 18.56 37.8002 17.72C38.2802 16.86 38.5202 15.86 38.5202 14.72ZM54.8022 6.2C56.1022 6.2 57.2622 6.47 58.2822 7.01C59.3222 7.55 60.1322 8.35 60.7122 9.41C61.2922 10.47 61.5822 11.75 61.5822 13.25V23H58.1922V13.76C58.1922 12.28 57.8222 11.15 57.0822 10.37C56.3422 9.57 55.3322 9.17 54.0522 9.17C52.7722 9.17 51.7522 9.57 50.9922 10.37C50.2522 11.15 49.8822 12.28 49.8822 13.76V23H46.4622V6.47H49.8822V8.36C50.4422 7.68 51.1522 7.15 52.0122 6.77C52.8922 6.39 53.8222 6.2 54.8022 6.2ZM69.9347 9.26V18.41C69.9347 19.03 70.0747 19.48 70.3547 19.76C70.6547 20.02 71.1547 20.15 71.8547 20.15H73.9547V23H71.2547C69.7147 23 68.5347 22.64 67.7147 21.92C66.8947 21.2 66.4847 20.03 66.4847 18.41V9.26H64.5347V6.47H66.4847V2.36H69.9347V6.47H73.9547V9.26H69.9347ZM83.1068 23.27C81.8068 23.27 80.6368 23.04 79.5968 22.58C78.5768 22.1 77.7668 21.46 77.1668 20.66C76.5668 19.84 76.2468 18.93 76.2068 17.93H79.7468C79.8068 18.63 80.1368 19.22 80.7368 19.7C81.3568 20.16 82.1268 20.39 83.0468 20.39C84.0068 20.39 84.7468 20.21 85.2668 19.85C85.8068 19.47 86.0768 18.99 86.0768 18.41C86.0768 17.79 85.7768 17.33 85.1768 17.03C84.5968 16.73 83.6668 16.4 82.3868 16.04C81.1468 15.7 80.1368 15.37 79.3568 15.05C78.5768 14.73 77.8968 14.24 77.3168 13.58C76.7568 12.92 76.4768 12.05 76.4768 10.97C76.4768 10.09 76.7368 9.29 77.2568 8.57C77.7768 7.83 78.5168 7.25 79.4768 6.83C80.4568 6.41 81.5768 6.2 82.8368 6.2C84.7168 6.2 86.2268 6.68 87.3668 7.64C88.5268 8.58 89.1468 9.87 89.2268 11.51H85.8068C85.7468 10.77 85.4468 10.18 84.9068 9.74C84.3668 9.3 83.6368 9.08 82.7168 9.08C81.8168 9.08 81.1268 9.25 80.6468 9.59C80.1668 9.93 79.9268 10.38 79.9268 10.94C79.9268 11.38 80.0868 11.75 80.4068 12.05C80.7268 12.35 81.1168 12.59 81.5768 12.77C82.0368 12.93 82.7168 13.14 83.6168 13.4C84.8168 13.72 85.7968 14.05 86.5568 14.39C87.3368 14.71 88.0068 15.19 88.5668 15.83C89.1268 16.47 89.4168 17.32 89.4368 18.38C89.4368 19.32 89.1768 20.16 88.6568 20.9C88.1368 21.64 87.3968 22.22 86.4368 22.64C85.4968 23.06 84.3868 23.27 83.1068 23.27Z" />
+                        </svg>
+                    </a>
+                    <ul class="header__site-menu site-menu list">
+                        <li class="site-menu__item">
+                            <a class="site-menu__link" href="#">Home</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a class="site-menu__link" href="#">About</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a class="site-menu__link" href="#part-3">Product</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a class="site-menu__link" href="#">Plants care</a>
+                        </li>
+                    </ul>
+                    <ul class="header__user-menu user-menu list">
+                        <li class="user-menu__item">
+                            <button class="user-menu__point user-menu__point--search" type="button">
+                                <span class="visually-hidden">Search</span>
+                                <svg class="user-menu__icon" width="26" height="26" fill="white" viewBox="0 0 26 26"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M25.6826 24.1508L19.2162 17.6843C20.9784 15.5292 21.8448 12.7791 21.6362 10.003C21.4276 7.22696 20.16 4.63725 18.0956 2.76957C16.0311 0.901894 13.3278 -0.100859 10.5448 -0.0312743C7.76176 0.0383101 5.11194 1.17491 3.14342 3.14342C1.17491 5.11194 0.0383101 7.76176 -0.0312743 10.5448C-0.100859 13.3278 0.901894 16.0311 2.76957 18.0956C4.63725 20.16 7.22696 21.4276 10.003 21.6362C12.7791 21.8448 15.5292 20.9784 17.6843 19.2162L24.1508 25.6826C24.3551 25.8799 24.6287 25.9891 24.9128 25.9867C25.1968 25.9842 25.4685 25.8703 25.6694 25.6694C25.8703 25.4685 25.9842 25.1968 25.9867 24.9128C25.9891 24.6287 25.8799 24.3551 25.6826 24.1508ZM10.8333 19.5C9.11924 19.5 7.44362 18.9917 6.0184 18.0394C4.59317 17.0871 3.48234 15.7336 2.82639 14.1499C2.17043 12.5663 1.9988 10.8237 2.3332 9.14256C2.66761 7.46139 3.49303 5.91714 4.70508 4.70508C5.91714 3.49303 7.46139 2.66761 9.14256 2.3332C10.8237 1.9988 12.5663 2.17043 14.1499 2.82639C15.7336 3.48234 17.0871 4.59317 18.0394 6.0184C18.9917 7.44362 19.5 9.11924 19.5 10.8333C19.4974 13.1311 18.5835 15.334 16.9587 16.9587C15.334 18.5835 13.1311 19.4974 10.8333 19.5Z" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="user-menu__item">
+                            <a class="user-menu__point" href="#">
+                                <span class="visually-hidden">Shopping cart</span>
+                                <svg class="user-menu__icon" fill="white" width="28" height="28" viewBox="0 0 28 28"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M26.4985 4.7565C26.1703 4.36268 25.7595 4.04594 25.2951 3.82878C24.8308 3.61163 24.3243 3.49937 23.8117 3.5H4.949L4.9 3.0905C4.79972 2.23932 4.39061 1.45452 3.75024 0.884891C3.10986 0.315261 2.28273 0.000398759 1.42567 0L1.16667 0C0.857247 0 0.560501 0.122916 0.341709 0.341709C0.122916 0.560501 0 0.857247 0 1.16667C0 1.47609 0.122916 1.77283 0.341709 1.99162C0.560501 2.21042 0.857247 2.33333 1.16667 2.33333H1.42567C1.71142 2.33337 1.98723 2.43828 2.20077 2.62817C2.41431 2.81805 2.55073 3.07971 2.58417 3.3635L4.1895 17.0135C4.35616 18.4331 5.03822 19.7421 6.10623 20.692C7.17423 21.6419 8.55383 22.1667 9.98317 22.1667H22.1667C22.4761 22.1667 22.7728 22.0438 22.9916 21.825C23.2104 21.6062 23.3333 21.3094 23.3333 21C23.3333 20.6906 23.2104 20.3938 22.9916 20.175C22.7728 19.9562 22.4761 19.8333 22.1667 19.8333H9.98317C9.26106 19.8313 8.55727 19.606 7.96826 19.1882C7.37925 18.7705 6.93387 18.1808 6.69317 17.5H20.5998C21.9675 17.5001 23.2917 17.0196 24.3411 16.1425C25.3905 15.2654 26.0984 14.0475 26.341 12.7015L27.2568 7.62183C27.3483 7.11784 27.3277 6.59991 27.1967 6.10474C27.0656 5.60958 26.8273 5.14929 26.4985 4.7565ZM24.9667 7.20767L24.0497 12.2873C23.904 13.0958 23.4785 13.8273 22.8478 14.3537C22.2171 14.8801 21.4214 15.1679 20.5998 15.1667H6.32217L5.22433 5.83333H23.8117C23.983 5.83231 24.1526 5.86906 24.3081 5.94096C24.4637 6.01287 24.6015 6.11817 24.7118 6.24938C24.822 6.38058 24.902 6.53447 24.9461 6.70009C24.9902 6.86572 24.9972 7.03902 24.9667 7.20767Z" />
+                                    <path
+                                        d="M8.16671 27.9999C9.45537 27.9999 10.5 26.9553 10.5 25.6666C10.5 24.3779 9.45537 23.3333 8.16671 23.3333C6.87804 23.3333 5.83337 24.3779 5.83337 25.6666C5.83337 26.9553 6.87804 27.9999 8.16671 27.9999Z" />
+                                    <path
+                                        d="M19.8333 27.9999C21.122 27.9999 22.1667 26.9553 22.1667 25.6666C22.1667 24.3779 21.122 23.3333 19.8333 23.3333C18.5447 23.3333 17.5 24.3779 17.5 25.6666C17.5 26.9553 18.5447 27.9999 19.8333 27.9999Z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="user-menu__item">
+                            <a class="user-menu__point" href="#">
+                                <span class="visually-hidden">User's profile</span>
+                                <svg class="user-menu__icon" fill="white" width="21" height="27" viewBox="0 0 21 27"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21 26.9998H18.6667V21.3446C18.6657 20.4655 18.302 19.6226 17.6552 19.0009C17.0084 18.3792 16.1315 18.0296 15.2168 18.0287H5.78317C4.8685 18.0296 3.99156 18.3792 3.34479 19.0009C2.69802 19.6226 2.33426 20.4655 2.33333 21.3446V26.9998H0V21.3446C0.00185247 19.8709 0.611743 18.4581 1.6959 17.416C2.78005 16.3739 4.24994 15.7877 5.78317 15.7859H15.2168C16.7501 15.7877 18.22 16.3739 19.3041 17.416C20.3883 18.4581 20.9981 19.8709 21 21.3446V26.9998Z" />
+                                    <path
+                                        d="M10.5 13.5432C9.11553 13.5432 7.76216 13.1485 6.61101 12.4092C5.45987 11.6699 4.56266 10.6191 4.03285 9.38962C3.50303 8.16018 3.36441 6.80733 3.63451 5.50215C3.9046 4.19698 4.57129 2.9981 5.55026 2.05712C6.52922 1.11614 7.7765 0.475328 9.13437 0.215712C10.4922 -0.0439029 11.8997 0.0893411 13.1788 0.598595C14.4579 1.10785 15.5511 1.97024 16.3203 3.07671C17.0895 4.18319 17.5 5.48405 17.5 6.81479C17.4982 8.59872 16.7601 10.3091 15.4477 11.5705C14.1354 12.8319 12.356 13.5414 10.5 13.5432ZM10.5 2.32922C9.57702 2.32922 8.67477 2.59229 7.90734 3.08517C7.13991 3.57805 6.54177 4.2786 6.18857 5.09824C5.83536 5.91787 5.74294 6.81977 5.92301 7.68988C6.10307 8.56 6.54753 9.35925 7.20017 9.98657C7.85282 10.6139 8.68434 11.0411 9.58958 11.2142C10.4948 11.3873 11.4331 11.2984 12.2859 10.9589C13.1386 10.6194 13.8674 10.0445 14.3802 9.30684C14.893 8.56919 15.1667 7.70195 15.1667 6.81479C15.1667 5.62514 14.675 4.48422 13.7998 3.64301C12.9247 2.8018 11.7377 2.32922 10.5 2.32922Z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main__content">
+            <h1 class="visually-hidden">Online plant store</h1>
+
+            <!-- SECTION HOME -->
+            <section class="home">
+                <div class="container">
+                    <h2 class="visually-hidden">About us</h2>
+                    <div class="home__column home__column--left">
+                        <p class="home__lead">Make green your favorite home & <span class="home__lead-dark">Living
+                                better</span></p>
+                        <p class="home__text">Very beautiful plant decorationto make our lives healthy and the home
+                            environment
+                            so that the almosphere become calmer.</p>
+                        <div class="home__links-wrap">
+                            <a class="home__link" href="#">Shop now</a>
+                            <a class="home__link home__link--explore" href="#">Explore now</a>
+                        </div>
+                        <dl class="home__statistic">
+                            <div class="home__statistic-wrap">
+                                <dt class="home__term">Order everyday</dt>
+                                <dd class="home__data">250+</dd>
+                            </div>
+                            <div class="home__statistic-wrap">
+                                <dt class="home__term">On collection</dt>
+                                <dd class="home__data">500+</dd>
+                            </div>
+                            <div class="home__statistic-wrap">
+                                <dt class="home__term">Sell everyday</dt>
+                                <dd class="home__data">200+</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="home__column-right">
+                        <img class="home__img" src="img/plant-home.png" width="868" height="996"
+                            alt="Нands holding a green plant in a pot">
+                    </div>
+                    <section class="home__social">
+                        <h2 class="home__title-social">Where to find</h2>
+                        <ul class="home__social-list social list">
+                            <li class="social__item">
+                                <a class="social__link" href="#">Google</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">Instagram</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">Facebook</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">Linkedin</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">youtube</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+
+            <!-- SECTION PRODUCTS -->
+            <section class="products" id="part-3">
+                <div class="container">
+                    <div class="products__wrap-top">
+                        <h2 class="products__title">Best seller products</h2>
+                        <p class="products__text">Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature</p>
+                    </div>
+                    <ul class="products__list list">
+                        <li class="products__item">
+                            <div class="products__cart">
+                                <h3 class="products__name">Alocasia polly</h3>
+                                <img class="products__img" src="img/plant-alocasia.png" width="395" height="322"
+                                    alt="The plant alokasia polly in a pot">
+                                <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis
+                                    nostrud</p>
+                                <div class="products__add-wrap">
+                                    <button class="products__btn products__btn--add" type="button">Add to cart</button>
+                                    <span class="products__btn products__btn--price">$45.15</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__cart">
+                                <h3 class="products__name">Peace lily</h3>
+                                <img class="products__img" src="img/plant-peace.png" width="299" height="318"
+                                    alt="The plant peace lily in a pot">
+                                <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis
+                                    nostrud</p>
+                                <div class="products__add-wrap">
+                                    <button class="products__btn products__btn--add" type="button">Add to cart</button>
+                                    <span class="products__btn products__btn--price">$35.15</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__cart">
+                                <h3 class="products__name">Camille lily</h3>
+                                <img class="products__img" src="img/plant-camille.png" width="246" height="200"
+                                    alt="The plant camille lily in a pot">
+                                <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis
+                                    nostrud</p>
+                                <div class="products__add-wrap">
+                                    <button class="products__btn products__btn--add" type="button">Add to cart</button>
+                                    <span class="products__btn products__btn--price">$25.15</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION INFO -->
+            <section class="info">
+                <div class="container">
+                    <div class="info__inner">
+                        <div class="info__column-img">
+                            <div class="info__img">
+                                <img src="img/info-1.png" alt="Plants">
+                            </div>
+                            <div class="info__img info__img--2">
+                                <img src="img/info-2.png" alt="Plants">
+                            </div>
+                        </div>
+                        <div class="info__column">
+                            <h3 class="info__title">If you love garden you’ll love Spring and our team</h3>
+                            <p class="info__text">Welcome the new season with the plants that are raring to go. We’ve worked out which plants go well together so you can just plant up in your garden for instant impact and grow fastly.</p>
+                            <a class="info__link" href="!#">View more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION FEATURES -->
+            <section class="features">
+                <div class="container">
+                    <h2 class="visually-hidden">Our features</h2>
+                    <ul class="features__list list">
+                        <li class="features__item features__item--quality">
+                            <a class="features__link" href="#!">
+                                <h3 class="features__name">Quality products</h3>
+                                <p class="features__text">Join us for one of our open days and find a plant and quality product that suit for your garden.</p>
+                            </a>
+                        </li>
+                        <li class="features__item features__item--fresh">
+                            <a class="features__link" href="#!">
+                                <h3 class="features__name">Always fresh</h3>
+                                <p class="features__text">Make your garden a place to sit back and enjoy by adding a comfortable garden bench for relaxing</p>
+                            </a>
+                        </li>
+                        <li class="features__item features__item--services">
+                            <a class="features__link" href="#!">
+                                <h3 class="features__name">Excellent services</h3>
+                                <p class="features__text">Our edited collection ranges from plant gifts to treats for the home, that help you find the ideal gift..</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION COLLECTION -->
+            <section class="collection">
+                <div class="collection-wrap">
+                    <div class="container collection__inner">
+                        <div class="collection__column">
+                            <h3 class="collection__title">Collection of plants</h3>
+                            <a class="collection__link" href="#!">Shop now</a>
+                        </div>
+                        <div class="collection__video">
+                            <div class="collection__img">
+                                <img src="./img/plant-in-hands.png" width="359" height="549" alt="Plant in hands">
+                            </div>
+                            <a class="collection__video-btn" href="#">
+                                <span class="visually-hidden">Open video</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FORM SEARCH -->
+        <form class="search" action="#">
+            <input class="search__input" type="search" name="Search" placeholder="search here ...">
+            <button class="search__button" type="submit">
+                <span class="visually-hidden">Search on the site</span>
+                <svg class="search__icon search__icon--srch" fill="white" xmlns="http://www.w3.org/2000/svg"
+                    height="1em" viewBox="0 0 512 512">
+                    <path
+                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                </svg>
+            </button>
+            <button class="search__button search__button--close" type="button">
+                <span class="visually-hidden">Close</span>
+                <svg class="search__icon" fill="white" xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 384 512">
+                    <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                </svg>
+            </button>
+        </form>
     </div>
 
+    <script src="script.js"></script>
 </body>
+
 </html>
